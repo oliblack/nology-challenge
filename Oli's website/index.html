@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Oli's website</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/me.png" />
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="JS/button.js"></script>
+</head>
+
+<body>
+<header>
+</header>
+
+<div class="navcontainer">
+  <h3 class="navName">Oli's precourse website</h3>
+  <nav>
+    <ul>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+  <!-- Background -->
+  <section class="backgroundSection" id="background">
+    <div class="container1">
+          <h2 class="section-heading">Background</h2>
+          <img src="img/me.png" alt="">
+          <p class="text-muted"> Hi, I'm Oli. I originally studied Philosophy at Nottingham University as my undergrad. After realising that this was pretty useless for me in my career, I decided to get MSc in Computer Science at UCL. 
+            I then worked as a software developer for around 2 years, partly as a freelancer making phone apps and also working for Capita on a grad scheme. I then decided to have a carreer change and ended up working in an Accountancy firm doing tech consulting.
+          For the last year and a half I have been working for myself as a tech consultant, but I have got the itch again to get back into software! </p>
+    </div>
+  </section>
+
+
+  <!-- Hobbies -->
+  <section class="hobbiesSection" id="hobbies">
+    <div class="container2">
+      <h2 class="section-heading">Hobbies</h2>
+        <p class="text-muted"> Below are a few of my hobbies, can you guess how long I have had them?</p>
+        <div id="wrapper">
+          <div class="divHobby" id="hobby1">
+            <div class="hobbyquestion"> 
+              <p class="text-muted">Guitar</p>
+              <p><img class="hobbyImage" src="img/guitar.png"></p>
+              <form action="">
+                <input type="radio" name="guitar" value="5">5 Years<br>
+                <input type="radio" name="guitar" value="10">10 Years<br>
+                <input type="radio" name="guitar" value="15">15 Years
+              </form>
+            </div>
+          </div>
+          <div class="divHobby" id="hobby2">
+            <div class="hobbyquestion"> 
+              <p class="text-muted">Japanese</p>
+              <p><img class="hobbyImage" src="img/japanese.png"></p>
+              <form action="">
+                <input type="radio" name="japanese" value="3">3 Years<br>
+                <input type="radio" name="japanese" value="6">6 Years<br>
+                <input type="radio" name="japanese" value="9">9 Years
+              </form>
+            </div>
+          </div>
+          <div class="divHobby" id="hobby3">
+            <div class="hobbyquestion"> 
+              <p class="text-muted">Golf</p>
+              <p><img class="hobbyImage" src="img/golf.jpg"></p>
+            </div>
+            <form action="">
+              <input type="radio" name="golf" value="2">2 Years<br>
+              <input type="radio" name="golf" value="4">4 Years<br>
+              <input type="radio" name="golf" value="6">6 Years
+            </form>
+          </div>
+          <div class="divHobby" id="hobby4">
+            <div class="hobbyquestion"> 
+              <p class="text-muted">My dog Lyla</p>
+              <p><img class="hobbyImage" src="img/lyla.png"></p>
+              <form action="">
+                <input type="radio" name="lyla" value="6">6 months<br>
+                <input type="radio" name="lyla" value="8">8 months<br>
+                <input type="radio" name="lyla" value="10">10 months
+              </form>
+            </div>
+          </div>
+        </div>
+        <br>
+        <input id="submitButton" type="submit" value="Submit" onclick="pressSubmit()" />
+        <p class = "answerText "id="answerText"></p>
+    </div>
+  </section>
+
+
+
+  <!-- Goals -->
+  <section class="goalsSection" id="goals">
+    <div class="container1">
+          <h2 class="section-heading">Goals</h2>
+          <p class="text-muted"> My main goals during the nology course are: </p>
+          <ul class="text-muted">
+            <li>Get back up to scratch with Javascript</li>
+            <li>Learn more about HTML5 and CSS3</li>
+            <li>Get hands on experience using React on a client project</li>
+            <li>Be confident to build my own modern websites from scratch</li>
+            <li>Make fellow software friends :)</li>
+          </ul>
+    </div>
+  </section>
+  <!-- Contact -->
+  <footer>
+    <div class="footerclass">
+      <section class="socialmedia">
+        <ul>
+          <li><a href="https://www.facebook.com/oliverblack1990" class="fa fa-facebook"></a></li>
+          <li><a href="https://twitter.com/oliverblack1990" class="fa fa-twitter"></a></li>
+        </ul>
+      </section>
+      <section class="contactSection" id="contact">
+          <h5 class="normtext">mobile: 07399 927 928</h5>
+          <h5 class="normtext">email: <a href="mailto:oli@andorconsulting.co.uk">oli@andorconsulting.co.uk</a></h5>
+      </section>
+    </div>
+  </footer>
+</body>
+
+</html>

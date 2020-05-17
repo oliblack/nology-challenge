@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: 'Calibri', sans-serif;
+  font-weight: 800;
+  padding-top: 65px; 
+
+}
+
+
+.container1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+  border-radius: 5px;
+  width: 95%;
+  padding: 25px 25px 25px 25px;
+  margin: 10px auto;
+  text-align: center
+
+}
+
+.container2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bbbbbb;
+  border-radius: 5px;
+  width: 95%;
+  padding: 25px 25px 25px 25px;
+  margin: 10px auto;
+  text-align: center
+}
+
+.navcontainer {
+  background: #222222;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.navName {
+  float: left;
+  padding: 0px 0;
+}
+
+nav {
+  float: right;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding: 25px;
+  position: relative;
+}
+
+nav a {
+  color: #bbbbbb;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #444444;
+}
+
+h3 {
+  color: #bbbbbb;
+}
+
+h2 {
+  color: #666666;
+}
+
+.text-muted {
+    color: #666666;
+}
+
+footer {
+  background: #222222;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footerclass{
+  width: 90%;
+	margin: 0 auto;
+}
+
+.socialmedia {
+  float: left;
+  padding: 0px 0;
+}
+
+.contactSection {
+  float: right;
+  padding: 0px 0;
+}
+
+h5 {
+  color: #bbbbbb;
+}
+
+a[href^="mailto:"]
+{ 
+  color: #4f4f4f;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socialmedia ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* #wrapper {
+
+} */
+
+.divHobby {
+  display: inline-block;
+  width:250px;
+  height:250px;
+
+}
+
+
+.hobbyImage{
+  width: 200px;
+  height: 200px;
+}
+
+#submitButton{
+ border: 2;
+ width: 150px;
+ height: 50px;
+ background: none;
+ box-shadow: none;
+ border-radius: 0px;
+ cursor:pointer;
+
+}
+
+.answerText{
+  font-size: 25px;
+  font-weight: bolder;
+}
